@@ -58,7 +58,7 @@ body {
     padding-right: 10px;
 }
 
-#encabezado{
+#encabezado {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,8 +72,7 @@ body {
     flex-wrap: wrap;
     box-shadow: 3px 10px -5px #ccc8c8;
     font-size: 22px;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 
 #separador{
@@ -81,7 +80,7 @@ body {
     box-shadow: 0px 15px 10px;
 }
 
-#contacto{
+#Descripción{
     background-color: rgb(213, 194,231);
     border-radius: 10px;
 }
@@ -110,7 +109,7 @@ button{
 
 }
 
-#iconos {
+#Contactos {
     font-size: 10px;
     align-items: center;
     flex-wrap: wrap;
@@ -149,4 +148,54 @@ ul#menu {
 li.menu-item a {
     padding: 16px;
     display: inline-block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+element {
+    color: aliceblue;
+    display:inline-table;
+    text-align: right;
+}
+
+.menu {
+    background-color: rgba(110, 27, 143, 0.753);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+
+.Allinson {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.menu-icono {
+    opacity: 0.7;
+}
+
+.bmail {
+    width: 140px;
+    height: 140px;
+}
+
+.bgit{
+    width: 140px;
+    height: 140px;
+}
+
+.blink {
+    width: 140px;
+    height: 140px;
+}
+
+nav {
+    
+    background:url(eso8.png), linear-gradient(rgba(255, 255, 255, 0.197),rgba(255, 255, 255, 0.264));
+    background-size: cover;
+    min-height: 100vh;
 }
