@@ -157,7 +157,7 @@ li.menu-item a {
 }
 
 element {
-    color: aliceblue;
+    color: rgb(232, 181, 231);
     display:inline-table;
     text-align: right;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -200,4 +200,28 @@ nav {
     background:url(eso8.png), linear-gradient(rgba(255, 255, 255, 0.197),rgba(255, 255, 255, 0.264));
     background-size: cover;
     min-height: 100vh;
+}
+
+li.menu-item a.active {
+
+    color: rgb(255, 255, 255);
+    
+}
+
+li.menu-item a.FContacto {
+
+    color:  rgb(194, 37, 191);
+    display: inline-block;
+}
+
+li.menu-item a.FDescripción {
+
+    color: rgb(194, 37, 191);
+    display: inline-block;
+}
+
+li.menu-item a.FExperiencia {
+
+    color: rgb(194, 37, 191);
+    display: inline-block;
 }
