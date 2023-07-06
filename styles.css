@@ -225,3 +225,23 @@ li.menu-item a.FExperiencia {
     color: rgb(194, 37, 191);
     display: inline-block;
 }
+
+@media screen and(max-width: 800x) {
+
+    .contenedor {
+        width: 100%;
+    }
+    article {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400x) {
+    .encad {
+        width: 100%;
+    }
+    #dinicio {
+        width: 50%;
+    }
+}
+    
