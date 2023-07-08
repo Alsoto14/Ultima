@@ -8,6 +8,16 @@ menuprincipal.forEach(function(item){
    });
 });
 
+const descripción = document.querySelectorAll('.menu-redes');
+
+descripción.forEach(function(item){
+   item.addEventListener('mouseover', function(e){
+        const actualItem = document.querySelector('.Descripción');
+        actualItem.classList.remove('Descripción');
+        e.target.classList.add('Descripción');
+   });
+});
+
 
 
 

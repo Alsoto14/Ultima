@@ -57,6 +57,7 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.5px;
 }
 
 #encabezado {
@@ -117,7 +118,7 @@ button{
     place-content: center;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 5px;
     -ms-flex-align: center; 
     
 }
@@ -178,6 +179,8 @@ element {
 
 .menu-icono {
     opacity: 0.7;
+    width: 160px;
+    height: 120px;
 }
 
 .bmail {
@@ -202,46 +205,48 @@ nav {
     min-height: 100vh;
 }
 
+header {
+    padding: 0.5px;
+}
+
+
 li.menu-item a.active {
 
     color: rgb(255, 255, 255);
     
 }
 
-li.menu-item a.FContacto {
+li.menu-redes a.Descripción {
 
-    color:  rgb(194, 37, 191);
-    display: inline-block;
+    color: rgb(255, 255, 255);
+    
 }
 
-li.menu-item a.FDescripción {
+@media screen and(max-width:1700px) {
 
-    color: rgb(194, 37, 191);
-    display: inline-block;
-}
-
-li.menu-item a.FExperiencia {
-
-    color: rgb(194, 37, 191);
-    display: inline-block;
-}
-
-@media screen and(max-width: 800x) {
-
-    .contenedor {
-        width: 100%;
-    }
-    article {
-        width: 100%;
+    body {
+        background-position: 50%;
     }
 }
 
-@media screen and (max-width: 400x) {
-    .encad {
-        width: 100%;
+@media screen and(max-width:1200px) {
+
+    body {
+        background-position: 50%;
     }
-    #dinicio {
-        width: 50%;
+    header {
+        padding: 0.5px;
     }
 }
+
+@media screen and (max-width: 800px) {
+    body {
+        background-position: 20%;
+        background-color: rgb(202, 40, 223);
+        background-image: url(""); 
+    }
+
+    
+}
+
     
