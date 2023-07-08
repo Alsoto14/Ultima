@@ -246,6 +246,21 @@ li.menu-redes a.Descripción {
         background-image: url(""); 
     }
 
+    .bmail {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .bgit{
+        width: 90px;
+        height: 90px;
+    }
+    
+    .blink {
+        width: 90px;
+        height: 90px;
+    }
+
     
 }
 
